@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// declaring a variable named 'name' and that variable's value is equal to the string 'Dane'
+// The next 3 lines are a conditional statement that checks if the variable 'name' is equal to the value of 'Mary'
+// if expression evalutes to true, the string 'Hi Mary' will be logged to the console
+// if expression evalutes to false, the string 'How do you do?' will be logged to the console
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
+// declaring a variable named 'secret' and another variable named 'code' with a value of 123
+// conditional statement which checks if the variable 'code' has a valeu of 123
+// First conditional will asign secret a value of 'super' if true and will multiply the value of code 
+// Second conditional will assign secret a value of 'duper' if the value of 'code' is less than 250
 // 
-// 
-// 
-//
 
 //CODE
 /*
@@ -70,10 +71,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 3 variables are declared
+// a conditonal statement evaluates multiple different expressions
+// if the first 'if's statement is true, the code block immediately after will run and the conditional ends
+// if the if statement is false, the code block will move on to the next if statement until one of the expressions is true
 
 //CODE
 /*
@@ -129,11 +130,14 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// colorOne and colorTwo's values should be switched. 
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+
+// add colorTwo = 'purple' in the conditonal code block
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -146,7 +150,9 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+time should be declared with the 'let' keyword so it can be changed later
 
+// Change || to && in the code below
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +166,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+swap the console.log statements; since the conditional evaluates to true, the first console.log statement will run and the code block will stop.
 if(minAge <= age) {
   console.log('no entry');
 } else {
