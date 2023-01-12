@@ -45,11 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// declaring a variable named 'secret' and another variable named 'code' with a value of 123
-// conditional statement which checks if the variable 'code' has a valeu of 123
-// First conditional will asign secret a value of 'super' if true and will multiply the value of code 
-// Second conditional will assign secret a value of 'duper' if the value of 'code' is less than 250
-// 
+// declaring a variable named 'secret' with no value and another variable named 'code' with a value of 123
+// conditional statement which checks if the variable 'code' has a value of 123
+// First conditional checks if the variable 'code' is equal to the value of 123
+// secret will be assigned a value of 'super' if true, and the value of code will be multiplied by 2
+// Second conditional checks if the value of code is greater than 250
+// secret is assgined a value of 'duper' if the value of 'code' is greater than 250
+// the value of secret will be logged to the console (secret's value is 'super' since the second conditional is false)
 
 //CODE
 /*
@@ -71,10 +73,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 3 variables are declared
-// a conditonal statement evaluates multiple different expressions
+// 3 variables are declared and assigned values of different data types
+// a conditonal statement evaluates multiple different expressions in order
 // if the first 'if's statement is true, the code block immediately after will run and the conditional ends
 // if the if statement is false, the code block will move on to the next if statement until one of the expressions is true
+// if none of the if statements evaluate to true, the else code block will run by default
+// in this case, 'Welcome to Prime!' is logged to the conosle since the first two if statements evalualute to false 
 
 //CODE
 /*
@@ -137,7 +141,7 @@ let colorTwo = 'blue';
 let mix = true;
 
 
-// add colorTwo = 'purple' in the conditonal code block
+// add colorTwo = 'purple' into the conditonal code block
 if (mix === true) {
   colorOne = 'purple';
 }
